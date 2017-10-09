@@ -1,0 +1,11 @@
+{
+  "name": "mini-2048",
+  "author": "Rebecca & the JS codegolf team",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bom": "^1.0.0",
+    "gulp-replace": "^0.6.1",
+    "gulp-size": "^2.1.0"
+  }
+}
