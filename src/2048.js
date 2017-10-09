@@ -1,6 +1,20 @@
 M=(c,d)=>{
     for(i=H=16;i--;G|=p>>11)
-        for(p=B[m=V(j=i%4+1)];--j?(q=B[n=V(j)])?p-q?0:h=c?0:B[p?S+=B[m]*=2:B[i++,m]=q,n]=d:1:0;)
+        for(p=B[m=V(j=i%4+1)];
+            --j
+                ?(q=B[n=V(j)])
+                    ?p-q
+                        ?0
+                        :h=c
+                            ?0
+                            :B[
+                                p
+                                    ?S+=B[m]*=2
+                                    :B[i++,m]=q,
+                                n
+                            ]=d
+                    :1
+                :0;)
             R=Math.random
 },
 
