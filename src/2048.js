@@ -1,6 +1,6 @@
 M=(c,d)=>{
     for(i=H=16;i--;G|=p>>11)
-        for(p=B[m=V(j=i%4+1)];--j?(q=B[n=V(j)])?p-q?0:h=c?0:B[p?S+=B[m]*=2:B[i++,m]=q,n]=d:L=localStorage:0;)
+        for(p=B[m=V(j=i%4+1)];--j?(q=B[n=V(j)])?p-q?0:h=c?0:B[p?S+=B[m]*=2:B[i++,m]=q,n]=d:1:0;)
             R=Math.random
 },
 
@@ -15,6 +15,6 @@ V=x=>{
     D=e?e.which-37:B=[];
     D>>2||M()|V(e?h:V());
     for(D=h=4;D--;)M(1);
-    for(h=(G|h?S+' / '+(L.S>S?L.S:L.S=S):S)+'<table border>';H;P.innerHTML=h+='<th width=50 height=50>'+[B[H]])
+    for(h=S+'<table border>';H;P.innerHTML=h+='<th width=50 height=50>'+[B[H]])
         H--%4?0:h+='<tr>'
 })(S=G=0)
